@@ -1,0 +1,32 @@
+JavaScript is a single-threaded interpreted language. Every browser has its own JavaScript engine. Google Chrome has the V8 engine, Mozilla Firefox has SpiderMonkey, and so on.
+They all are used for the same goal, because the browsers cannot directly understand JavaScript code.
+
+When the JavaScript engine scans a script file, it makes an environment called the 'Execution Context' that handles the entire transformation and execution of the code.
+
+
+
+"Everything in JavaScript happens inside an 'Execution Context'"
+
+--> like Java provides an environment to run Java programs through JRE, JavaScript does the same through Execution Context.
+
+Execution Context is an environment which enables a JavaScript program to get executed.
+
+Think of Execution Context as a box which has two components: 
+
+1. Memory or Variable Environment: Here, all the variables and functions are stored as key:value pairs.
+    eg. a:10 or fn():{some task}
+
+2. Code or Thread of Execution: Here, the code gets executed one line at a time (because JavaScript a synchronous single-threaded language).
+
+
+Single-Threaded means JavaScript can execute only one task or statement at a time, unlike Java which can execute multiple tasks or statements at the same time.
+
+
+Synchronous means that the execution of operations is done sequentially. An operation will only be executed after the previous one is done.
+Synchronous is a blocking architecture, so the execution of each operation depends on completing the one before it. Each task requires an answer before moving on to the next iteration.
+
+
+In conclusion, JavaScript execution context is a crucial part of understanding how JavaScript works behind the scenes. It determines the environment in which code is executed and what variables and functions are available to use.
+
+
+Must Read: https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
