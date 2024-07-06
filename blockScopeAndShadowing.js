@@ -127,3 +127,5 @@ const q = 1;
         console.log(w); // output: 2
     }
 }
+
+// configuring git... unrelated to javascript
