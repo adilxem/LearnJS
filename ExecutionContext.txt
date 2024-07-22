@@ -16,7 +16,7 @@ Think of Execution Context as a box which has two components:
 1. Memory or Variable Environment: Here, all the variables and functions are stored as key:value pairs.
     eg. a:10 or fn():{some task}
 
-2. Code or Thread of Execution: Here, the code gets executed one line at a time (because JavaScript a synchronous single-threaded language).
+2. Code or Thread of Execution: Here, the code gets executed one line at a time (because "JavaScript a synchronous single-threaded language").
 
 
 Single-Threaded means JavaScript can execute only one task or statement at a time, unlike Java which can execute multiple tasks or statements at the same time.
