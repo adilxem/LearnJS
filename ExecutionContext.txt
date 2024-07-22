@@ -29,4 +29,4 @@ Synchronous is a blocking architecture, so the execution of each operation depen
 In conclusion, JavaScript execution context is a crucial part of understanding how JavaScript works behind the scenes. It determines the environment in which code is executed and what variables and functions are available to use.
 
 
-Must Read: https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
+Read: https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
