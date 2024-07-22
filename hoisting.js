@@ -21,6 +21,8 @@ var hi = () => {
     console.log("hi");
 }
 
+// assigning a function to a variable makes the function acts like a value; the way we assing values to variables - here a function is assigned to a variable which makes the function acts like a value
+
 console.log(hi);
 hi();
 
