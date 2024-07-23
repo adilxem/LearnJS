@@ -2,7 +2,7 @@
 
 // if we run an empty JS program with no code, the JS engine of a browser (this concept only applies to browsers) stil creates the Global Execution Context
 
-// along with the Global Execution Context, the browser JS engine creates a global object called 'window' which has lots of functions and variables - these functions and variables are created by the JS engine into the global space 
+// along with the Global Execution Context, the browser's JS engine creates a global object called 'window' which has lots of functions and variables - these functions and variables are created by the JS engine into the global space 
 
 // the JS engine always creates the Global Execution Context and the global object when the program is run, even if the program is empty (zero lines of code)
 
@@ -20,9 +20,9 @@
 
 // 1. Global Context: when code is executed in the global scope, 'this' refers to the global object. In browsers, this is the 'window' object, and in Node.js, it's the 'global' object.
 
-console.log(this); // In a browser, logs the window object
+console.log(this); // In a browser, it logs the window object
 
-// 2. Function Context: when a function is called, the JavaScript engine sets 'this' to the object that called the function. If the function is not called on an object, 'this' defaults to the global object (or undefined in strict mode).
+// 2. Function Context: when a function is called, the JavaScript engine sets 'this' to the object that has called the function. If the function is not called on an object, 'this' defaults to the global object (or undefined in strict mode).
 
 function showThis() {
 
