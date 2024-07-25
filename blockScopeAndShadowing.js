@@ -7,7 +7,7 @@
 
     // a block is used to combine multiple statements into one group
 
-    // we use blocks so we can use multiple statements together in a place where the JS engine or any other language compiler expects only a single statement
+    // we use blocks so we can use multiple statements together in a place where the JS engine expects only a single statement
 
     // example: functions, if, else if, else, for, while, switch, etc.
 }
@@ -57,7 +57,7 @@ console.log(a); // output: 10
 
 // so basically the 'var a' inside the block is shadowing the 'var a' outside the block
 
-// the variable 'a' was pointing to an object which held the value 10, but as the var declaration is stored in global object, when another var declaration with the same identifier 'a' was declared inside the block, it changed its reference to another object which stored 100
+// the variable 'a' was pointing to an object which held the value 100, but as the var declaration is stored in global object (even inside a block), when another var declaration with the same identifier 'a' was declared inside the block, it changed its reference to another object which stored 10
 
 // so a different object was created in the global scope using the var declaration inside the block, but as the reference variable of both the objects was same, the variable shifted its reference to the newer object
 
@@ -127,5 +127,3 @@ const q = 1;
         console.log(w); // output: 2
     }
 }
-
-// configuring git... unrelated to javascript
