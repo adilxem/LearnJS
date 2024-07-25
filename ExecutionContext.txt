@@ -1,7 +1,7 @@
 JavaScript is a single-threaded interpreted language. Every browser has its own JavaScript engine. Google Chrome has the V8 engine, Mozilla Firefox has SpiderMonkey, and so on.
-They all are used for the same goal - render the JavaScript, because the browsers cannot directly understand JavaScript code.
+They all are used for the same goal, because the browsers cannot directly understand JavaScript code.
 
-When the JavaScript engine scans a script file, it creates an environment called the 'Execution Context' that handles the entire transformation and execution of the code.
+When the JavaScript engine scans a script file, it makes an environment called the 'Execution Context' that handles the entire transformation and execution of the code.
 
 
 
@@ -28,5 +28,6 @@ Synchronous is a blocking architecture, so the execution of each operation depen
 
 In conclusion, JavaScript execution context is a crucial part of understanding how JavaScript works behind the scenes. It determines the environment in which code is executed and what variables and functions are available to use.
 
+"Call stack maintains the order of execution of execution context."
 
 Read: https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
